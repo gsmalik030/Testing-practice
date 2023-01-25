@@ -11,3 +11,4 @@ test('"" throw an error', () => {
 test('abcdefghijk length is more then 10', () => {
   expect(stringLength('abcdefghijk')).toBe("Length is more than 10");
 });
+
